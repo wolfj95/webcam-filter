@@ -81,3 +81,7 @@ function draw() {
   // webcamFilter.setUniform('c4', color(c4Picker.value()))
   filter(webcamFilter);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
